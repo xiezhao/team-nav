@@ -65,7 +65,7 @@
                     },
                     editItemRules: {
                         content: [
-                            {required: true, message: '公告内容不能为空'},
+                            {required: false, message: '公告内容不能为空'},
                             {
                                 validator: (rule, value, callback) => {
                                     if (globalEditor.isEmpty()) {
